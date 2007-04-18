@@ -1,0 +1,31 @@
+Revision history for Perl extension treeview.
+treeview.pm version 0.3
+0.5
+
+	-new Namespace HTML::Widget::Plugin::Treeview
+	-new styles red green orange.
+	-alternate folder symbols for Crystalm style.
+	-one folder for mimetypes (link images).
+	-warn instead of  die
+	-spacer.gif for emty cells which contain only a background image.
+	-Overwrought code, test, Documentation, styles, exaples.
+	-shebang within pod crashes some older Perl verions
+	-if you want use treevie.pm with perl > 5.008006 you should remove use 5.008006;.
+
+0.41
+	-export_ok use treeview qw(Tree css jscript setStyle setDocumentRoot);
+	-onclick default attribute wird nur gesetzt wenn kein href uebergeben wurde,
+	-sinnvoll wenn man Foldern href attribute mit auf den weg geben will.
+0.4
+	-New SYNTAX, setter for DocumentRoot and Style.
+	-Overwrought Documentation, code,exaples.
+	-New default style (system).
+
+0.3  Sun Nov 19 09:00:37 2006
+	- Opera, imagges and css fixed.
+0.2  Sun Sep 10 00:50:35 2006
+	- lincoln loader like getself function
+0.01  Sun Jan 22 01:37:35 2006
+	- original version; created by h2xs 1.23 with options
+	-XAn treeview
+
